@@ -1,0 +1,13 @@
+
+.sidebar-link {
+transition: all .4s;
+}
+
+.sidebar-link:hover {
+background-color: #444;
+border-radius: 5px;
+}
+i:hover{
+color: #007bff;
+cursor: pointer;
+}

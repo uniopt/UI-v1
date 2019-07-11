@@ -1,0 +1,8 @@
+[
+    {"id":"eplus","name":"Energy Plus","canBeActive":true},
+    {"id":"other","name":"Energy minus","canBeActive":true},
+    {"id":"ggg","name":"Energy aaa","canBeActive":true},
+    {"id":"aaa","name":"Energy bbb","canBeActive":true},
+    {"id":"bbb","name":"Energy aaa","canBeActive":true}
+    
+  ]

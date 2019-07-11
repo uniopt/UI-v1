@@ -1,0 +1,7 @@
+<input [value]="task.name" class="form-control mb-1" *ngIf="isEditable" #taskName (keyup.enter)="onSave(taskName.value)">
+<div class="nav-link text-white p-1 mb-2 clearfix sidebar-link cursor-pointer" *ngIf="!isEditable" [routerLink]="['/home/'+task.progId,task.id]">{{task.name}}
+    <span class="float-right">
+        <i class="fas fa-edit mr-1 iHover" (click)="onEnableEditing()"></i>
+        <i class="fa fa-trash iHover" (click)="onDeleteTask()"></i>
+   </span>
+</div>

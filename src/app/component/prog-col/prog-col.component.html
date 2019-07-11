@@ -1,0 +1,12 @@
+<p class="mb-3 py-3 cursor-pointer" 
+    *ngFor = 'let prog of programes'
+     [routerLink]="['/home/'+prog.id,1]"
+     [class.prog-sidebar-link]="prog.id != currentProgrameId"
+     [class.current]="prog.id === currentProgrameId"
+     (click)="specifyCurrentProg(prog.id)"
+     >{{prog.name}}</p>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-primary"  data-toggle="modal" data-target="#prog-modal">
+Add
+</button> 
