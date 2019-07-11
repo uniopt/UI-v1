@@ -1,6 +1,18 @@
+### Note
+ #### index.html 
+-  ``` <base href="/"> ```  this for  Browser 
+-  ``` <base href="./"> ``` this for  Electron 
+#image
+![Image of uniopt](https://i.imgur.com/vLN0ane.png)
 # UniopTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+## Npm Install
+
+npm install
+
+## install Eletron
+npm install electron --save-dev
 
 ## Development server
 
